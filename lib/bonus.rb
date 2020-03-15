@@ -21,10 +21,18 @@ def bonus
   }
 
   #code your solution here:
-
+  epic_tragedy[:montague][:hero][status] = 
   :capulet
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
 end
 
+    tv_show_characters["Homer Simpson"]
+    #=> {name: "Homer Simpson", occupation: "Nuclear Safety Inspector", hobbies: ["Watching TV", "Eating donuts"]}
+     
+    tv_show_characters["Jon Snow"][:occupation]
+    #=> "King in the North"
+     
+    tv_show_characters["Mr. Rogers"][:hobbies][1]
+    #=> "Singing songs"
